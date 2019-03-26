@@ -10,12 +10,13 @@ public class App {
     }
 
 }
+
 class Outer {
     static class Inner {
-        private String str = "内部類";
+        private String str = "新内部類";
 
         public void print() {
-            System.out.println(str+"方法");
+            System.out.println(str + "方法");
         }
     }
 
